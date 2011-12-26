@@ -41,7 +41,7 @@ sub prepare {
     }
   }
 
-  $args{debug} = 1 if $ENV{HARNESS_VERBOSE};
+  $args{debug} = 1 if $ENV{TEST_VERBOSE};
 
   $handler_class->new(%args);
 }
