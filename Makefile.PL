@@ -12,6 +12,7 @@ my %params = (
     'DBI'                 => '1.609',
     'DBIx::Skinny'        => '0.0742',
     'DBD::SQLite'         => '1.33',
+    'File::Spec'          => 0,
     'Perl::Tidy'          => 0,
     'Pod::Parser'         => 0,
     'Test::More'          => '0.47',
