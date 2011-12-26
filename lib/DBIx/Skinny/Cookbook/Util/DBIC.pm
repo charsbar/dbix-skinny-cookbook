@@ -14,6 +14,7 @@ sub _get_iterator {
   my $self = shift;
   my $code = '';
   $code .= 'local $ENV{DBIC_TRACE} = 1;' if $self->{debug};
+  $code;
 }
 
 sub _fetch_rows { return <<'CODE';
