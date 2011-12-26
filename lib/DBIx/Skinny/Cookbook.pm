@@ -21,7 +21,7 @@ DBIx::Skinny::Cookbook - working (testable) skinny examples
 
 =over 4
 
-=item DBIx::Skinny
+=item DBIx::Skinny (as of 0.0742)
 
 =for Skinny
 
@@ -42,7 +42,7 @@ DBIx::Skinny::Cookbook - working (testable) skinny examples
 
   $rs->order({ column => 'name' });
 
-=item DBIx::Class
+=item DBIx::Class (as of 0.08196)
 
 =for DBIC
 
